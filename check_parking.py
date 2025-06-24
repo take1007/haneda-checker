@@ -7,6 +7,8 @@ DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 if not DISCORD_WEBHOOK_URL:
     print("⚠️ DISCORD_WEBHOOK_URLが設定されていません。")
     exit(1)
+
+print(f"Discord Webhook URL (先頭10文字): {DISCORD_WEBHOOK_URL[:10]}...")
 URL = "https://hnd-rsv.aeif.or.jp/airport2/app/toppage"
 
 TARGET_DATES = ["2025/07/07", "2025/07/15", "2025/07/20", "2025/07/21", "2025/07/22", "2025/07/23", "2025/07/24"]
