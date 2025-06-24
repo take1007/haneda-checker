@@ -6,7 +6,7 @@ import os
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 URL = "https://hnd-rsv.aeif.or.jp/airport2/app/toppage"
 
-TARGET_DATES = ["2025/07/17", "2025/07/18", "2025/07/19"]
+TARGET_DATES = ["2025/07/07", "2025/07/15", "2025/07/20", "2025/07/21", "2025/07/22", "2025/07/23", "2025/07/24"]
 AVAILABLE_CLASSES = ["konzatsu", "yoyaku", "empty", "vacant"]
 
 P2_NEXT_BUTTON_SELECTOR = '#cal00_next'
