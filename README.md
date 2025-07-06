@@ -1,1 +1,0 @@
-# haneda-checker
